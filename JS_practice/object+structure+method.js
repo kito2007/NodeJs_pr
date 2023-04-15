@@ -19,3 +19,13 @@ person.greet2(); // 정상적으로 name 변수에 저장된 Max 출력
 // 객체 멤버를 사용할 때는 기본 함수형태나 함수 형태 없이 함수 본문만 선언한 형태로 구현한다.
 
 person.greet3();
+
+
+const hobbies = ['Sports', 'Cooking'];
+
+// for(let hobby of hobbies){
+//     console.log(hobby);
+// }
+
+console.log(hobbies.map( (hobby) => 'Hobby is ' + hobby));
+console.log(hobbies);
